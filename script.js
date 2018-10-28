@@ -18,3 +18,4 @@ class Admin extends User{
 
 let admin = new Admin('Admin', 'admin@gmail.com', '123qwe', '8-888-888-88-88')
 console.log(admin); 
+admin.deleteClassUser();
